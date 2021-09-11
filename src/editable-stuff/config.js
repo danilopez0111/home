@@ -54,8 +54,8 @@ const about = {
   imageLink: require("../editable-stuff/headshot.png"),
   imageSize: 375,
   message:
-    "My name is Daniel. I am a senior undergraduate in atmospheric sciences at the University of Illiniois at Urbana-Champaign. I am interested in research using machine learning to solve earth science problems.",
-  resume: "https://drive.google.com/file/d/1gYIHOOI1Me-kalwJtUOmqbw-jN3piViZ/view?usp=sharing",
+    "Hey! My name is Daniel and I’m a senior at the University of Illinois at Urbana-Champaign majoring in atmospheric sciences. My research passion is using machine learning to solve earth science problems, primarily in meteorology. Nevertheless, I am hoping to expand my horizons to involve all aspects of earth science and beyond!",
+  resume: "https://drive.google.com/file/d/1ykR9wZ4a50Y6MywSJJ2K8sHdtGTmv6Hp/view?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -132,7 +132,7 @@ const getInTouch = {
 
 const experiences = {
   show: true,
-  heading: "Research Projects",
+  heading: "Machine Learning Projects",
   data: [
     {
       role: 'Generating CloudSat Reflectivity Profiles using Global Precipitation Measurement Satellite and cGANs',// Here Add Company Name
