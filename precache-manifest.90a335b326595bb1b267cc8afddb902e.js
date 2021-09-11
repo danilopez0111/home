@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "14633b45329a0e3f84600e8c09b22f75",
+    "revision": "5b823c6728b8eb3f19116dd64d2728f8",
     "url": "/home/index.html"
   },
   {
-    "revision": "230f3e1af49de3478f13",
+    "revision": "7ab3851db19508ebee59",
     "url": "/home/static/css/main.956fad23.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/home/static/js/2.ef3efb9f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "230f3e1af49de3478f13",
-    "url": "/home/static/js/main.1357ce50.chunk.js"
+    "revision": "7ab3851db19508ebee59",
+    "url": "/home/static/js/main.eaa6ba8f.chunk.js"
   },
   {
     "revision": "c0578b487099793a068c",
@@ -38,9 +38,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "108772991fc1104271a779f4a0c1645e",
     "url": "/home/static/media/resume.10877299.pdf"
-  },
-  {
-    "revision": "e83405798fbd7d0b31fee13ea5d7ee7d",
-    "url": "/home/static/media/uiuc.e8340579.png"
   }
 ]);
