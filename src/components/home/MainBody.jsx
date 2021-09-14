@@ -45,6 +45,14 @@ const MainBody = React.forwardRef(
           >
             More about me
           </a>
+          {/* <a
+            className="btn btn-outline-light btn-lg "
+            href="#contact"
+            role="button"
+            aria-label="My Contact Information"
+          >
+            Contact Information
+          </a> */}
         </Container>
       </Jumbotron>
     );

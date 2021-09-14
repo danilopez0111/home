@@ -5,7 +5,7 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
+  gradientColors: "#01162e,#001d37,#002746,#013155,#003a63,#01426d",
   firstName: "Daniel",
   middleName: "",
   lastName: "Lopez",
@@ -64,11 +64,11 @@ const about = {
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
-  show: false,
-  heading: "Recent Projects",
+  show: true,
+  heading: "Machine Learning Projects",
   gitHubUsername: "danilopez0111", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  reposLength: 0,
+  specificRepos: ["aerospace-unet-goes16", "cgan-cloudsat-gpm"],
 };
 
 // Leadership SECTION
@@ -76,7 +76,7 @@ const leadership = {
   show: false,
   heading: "Research Description",
   message:
-    "UIUC: \nUses the information in the observed multi-channel brightness temperature fields from GMI to reconstruct the vertical profiles of radar reflectivity observed by CloudSat.\nAerospace Corporation: \nUses GOES-16 ABI CONUS imagery and lightning occurrence data to create a U-net based lightning prediction algorithm to support vehicle launches",
+    " ",
   images: [
     { 
       img: require('../assets/img/cgan.png'), 
@@ -131,7 +131,7 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: true,
+  show: false,
   heading: "Machine Learning Projects",
   data: [
     {

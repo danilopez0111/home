@@ -4,7 +4,7 @@ import { useScrollPosition } from "../hooks/useScrollPosition";
 import useResizeObserver from "../hooks/useResizeObserver";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import { mainBody, repos, about, skills } from "../editable-stuff/config.js";
+import { mainBody, repos, about, skills, getInTouch } from "../editable-stuff/config.js";
 
 const Navigation = React.forwardRef((props, ref) => {
   // const { showBlog, FirstName } = config;
@@ -35,7 +35,7 @@ const Navigation = React.forwardRef((props, ref) => {
     <Navbar
       ref={navbarMenuRef}
       className={` fixed-top  ${
-        !isTop ? "navbar-white" : "navbar-transparent"
+        !isTop ? "navbar-black" : "navbar-transparent"
       }`}
       expand="lg"
     >
@@ -54,6 +54,7 @@ const Navigation = React.forwardRef((props, ref) => {
             <Nav.Link
               className="nav-link lead"
               href={process.env.PUBLIC_URL + "/#projects"}
+              style={{color:"white"}}
             >
               Projects
             </Nav.Link>
@@ -63,6 +64,7 @@ const Navigation = React.forwardRef((props, ref) => {
             href={about.resume}
             target="_blank"
             rel="noreferrer noopener"
+            style={{color:"white"}}
           >
             Resume
           </Nav.Link>
@@ -70,14 +72,25 @@ const Navigation = React.forwardRef((props, ref) => {
             <Nav.Link
               className="nav-link lead"
               href={process.env.PUBLIC_URL + "/#aboutme"}
+              style={{color:"white"}}
             >
               About
+            </Nav.Link>
+          )}
+          {getInTouch.show && (
+            <Nav.Link
+              className="nav-link lead"
+              href={process.env.PUBLIC_URL + "/#contact"}
+              style={{color:"white"}}
+            >
+              Contact
             </Nav.Link>
           )}
           {skills.show && (
             <Nav.Link
               className="nav-link lead"
               href={process.env.PUBLIC_URL + "/#skills"}
+              style={{color:"white"}}
             >
               Skills
             </Nav.Link>
